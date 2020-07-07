@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width">
+    <title>Penguins</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="logo-title">PenguinsGram</h1>
+    </header>
+    <main class="main-content">
+        <div class="detail-container">
+            <div class="detail-frame">
+                <img class="detail-image" src="image/penguin1.jpg">
+                <span class="detail-title">It's a penguin!!</span>
+                <button id="hide-bottom" onclick="hideDetails()">Hide details</button>
+            </div>
+        </div>
+        <ol class="thumbnails-list">
+            <li id="img1" class="thumbnails-item">
+                <a href="image/penguin1.jpg" data-detailed-text="Three penguins">
+                    <img class="thumbnails-image" src="image/penguin1.jpg">
+                    <span class="thumbnails-title">Penguin1</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a href="image/penguin2.jpg" data-detailed-text="Penguin family">
+                    <img class="thumbnails-image" src="image/penguin2.jpg">
+                    <span class="thumbnails-title">Penguin2</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a href="image/penguin3.jpg" data-detailed-text="Penguin kids">
+                    <img class="thumbnails-image" src="image/penguin3.jpg">
+                    <span class="thumbnails-title">Penguin3</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a href="image/penguin4.jpg" data-detailed-text="Big penguins">
+                    <img class="thumbnails-image" src="image/penguin4.jpg">
+                    <span class="thumbnails-title">Penguin4</span>
+                </a>
+            </li>
+            <li class="thumbnails-item">
+                <a href="image/penguin5.jpg" data-detailed-text="Strange penguin">
+                    <img class="thumbnails-image" src="image/penguin5.jpg">
+                    <span class="thumbnails-title">Penguin5</span>
+                </a>
+            </li>
+        </ol>
+    </main>
+<script src="scripts/index.js"></script>
+</body>
+</html>
