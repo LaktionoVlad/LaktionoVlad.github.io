@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ArraysOperation</title>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+<body>
+    <button class="createArray" onclick="createArray()">Create new array</button>
+    <label class="printNewArray"></label>
+    <div class="mainButtons">
+        <div class="adding">
+            <button class="mainFunctions" onclick="operationAdding()" hidden>Adding</button>
+            <button onclick="addAtEnd()" hidden>Adding at end</button>
+            <button onclick="addAtBeginning()" hidden>Adding at beginning</button>
+            <button onclick="addAtMiddle()" hidden>Adding at the middle</button>
+        </div>
+        <div class="updating">
+            <button class="mainFunctions" onclick="updateArray()" hidden>Updating</button>
+        </div>
+        <div class="deleting">
+            <button class="mainFunctions" onclick="operationDeleting()" hidden>Deleting</button>
+            <button onclick="delFromEnd()" hidden>Deleting from end</button>
+            <button onclick="delFromBeginning()" hidden>Deleting from beginning</button>
+            <button onclick="delFromMiddle()" hidden>Deleting from middle</button>
+        </div>
+        <div class="slicing">
+            <button class="mainFunctions" onclick="slicing()" hidden>Slicing</button>
+        </div>
+        <div class="sorting">
+            <button class="mainFunctions" onclick="operationSorting()" hidden>Sorting</button>
+            <button onclick="ascendingSort()" hidden>Sorting in the ascending order</button>
+            <button onclick="descendingSort()" hidden>Sorting in the descending order</button>
+        </div>
+        <div class="iterations">
+            <button class="mainFunctions" onclick="operationIterations()" hidden>Iterations</button>
+            <button onclick="sumAllNumbers()" hidden>Sum of all numbers </button>
+            <button onclick="ifNumMore()" hidden>Showing numbers that more than a given number</button>
+        </div>
+    </div>
+    <label class="newValue"></label>
+    <label class="reports"></label>
+    <button class="res" onclick="reset()" hidden>Reset</button>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
