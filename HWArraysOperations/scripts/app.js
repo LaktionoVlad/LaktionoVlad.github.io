@@ -112,8 +112,8 @@ function delFromMiddle() {
 }
 
 function slicing() {
-    tmp = randomNumber(0, ar1.length/2-1);
-    temp = randomNumber(ar1.length/2, ar1.length - 1);
+    tmp = randomNumber(0, Math.floor(ar1.length/2-1));
+    temp = randomNumber(Math.floor(ar1.length/2), ar1.length - 1);
     var ar2 = ar1.slice(tmp, temp);
     newValue.textContent = ar2.toString();
     report.textContent = 'The value from index ' + tmp + ' to index ' + (temp-1) + ' has been moved to the new array.'
